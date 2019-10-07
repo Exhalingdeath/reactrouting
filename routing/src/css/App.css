@@ -1,0 +1,59 @@
+
+.headContainer {
+    height: 50px;
+    overflow: hidden;
+}
+
+.topContainerLeft {
+    height: 100%;
+    width: 100%;
+    border: solid 2px black;
+    background-color: black;
+    float: left;
+
+}
+
+.topContainerInnerRight {
+    height: 100%;
+    border: solid 2px black;
+    background-color: black;
+    padding-top: 2.5px;
+    margin-right: 5px;
+   
+}
+
+.topLink {
+    color: white;
+    margin-left: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.topForm {
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 20px;
+    height: 75%;
+    float: right;
+    margin: 0px;
+   
+}
+
+.topLink:hover {
+    color: rgb(0, 238, 255);
+    margin-left: 20px;
+}
+
+
+.mainContainerWrapper {
+    border: solid 2px black;
+    width: 100%;
+    display: flex;
+}
+
+.mainContainerColumn {
+    width: 100%;
+    border: solid 2px red;
+
+}
