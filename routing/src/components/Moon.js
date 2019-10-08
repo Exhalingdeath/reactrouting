@@ -1,9 +1,13 @@
 import React from 'react';
+import '../css/Moon.css';
+import MoonFetch from '../components/MoonFetch';
 
 class Moon extends React.Component {
     render() {
         return (
-            <h1>Moonstuff</h1>
+            <div>
+            <h1>Moon</h1>
+            </div>
         );
     }
 }

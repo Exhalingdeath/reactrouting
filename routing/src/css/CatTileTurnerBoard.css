@@ -1,0 +1,6 @@
+.catRow {
+    display: flex;
+}
+.framed {
+    border: solid 2px black;
+}

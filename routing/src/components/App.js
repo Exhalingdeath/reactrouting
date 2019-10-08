@@ -1,24 +1,28 @@
 import React from 'react';
 import '../css/App.css';
+import {Route, Link} from 'react-router-dom';
 
 class App extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
+    onCat() {
+        this.props.history.push("/cat");
+    }
+    onHome() {
+        this.props.history.push("/")
+    }
+
+
     render() {
+        
         return(
         <div className="headContainer">
             <div className="topContainerLeft">
-                <h1 className="topLink">moon</h1>
-                <h1 className="topLink">sun</h1>
-                <div className="topContainerInnerRight">
-                <button className="topForm">Log in</button>
-                <input className="topForm" type="text"/>
-                
-                </div>
-             
-                
-            </div>
-           
-        
-        
+                <button className="topLinkSun" onClick={() => this.onHome()}>Home</button>   
+                <button className="topLinkSun" onClick={() => this.onCat()}>Cat tile turner</button>           
+            </div>       
         </div>
        
         );}

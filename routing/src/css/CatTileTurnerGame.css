@@ -1,0 +1,13 @@
+.img-border{
+    padding: 0;
+    margin: 0px;
+    border: 2px solid black;
+}
+
+.centered {
+    display: inline-block;
+}
+
+.wrapperCenter {
+    text-align: center;
+}
